@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Jet Brains Mono Regular";
+  src: url("./assets/JetBrainsMono-Regular.woff2") format("woff2");
+}
+
+body{
+    margin: 0;
+    background: #1e2545;
+}
+
+.navbar{
+    position: relative;
+    left: 36vw;
+    padding-top: 2vh;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #1e2545;
+  }
+  
+  li {
+    float: left;
+    font-family: "Jet Brains Mono Regular";
+    border-bottom: 1px solid #e0e8ef;
+    /* border-left: 1px solid #e0e8ef;
+    border-right: 1px solid #e0e8ef; */
+  }
+  
+  li a {
+    display: block;
+    color: #e0e8ef;
+    text-align: center;
+    /* padding: 14px 16px; */
+    padding: 1rem 2rem;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #323554;
+  }
+
+  h1{
+    position: relative;
+    left: 30vw;
+    top: 35vh;
+    font-family: "Jet Brains Mono Regular";
+    color: #e0e8ef;
+    display: block;
+    font-size: 2rem;
+  }
+  

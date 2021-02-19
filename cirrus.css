@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "Jet Brains Mono Regular";
+    src: url("./assets/JetBrainsMono-Regular.woff2") format("woff2");
+  }
+  
+  body{
+      margin: 0;
+      background: #1e2545;
+  }
+  
+  .navbar{
+      position: relative;
+      left: 36vw;
+      padding-top: 2vh;
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:  #1e2545;
+    }
+    
+    li {
+      float: left;
+      font-family: "Jet Brains Mono Regular";
+      border-bottom: 1px solid #e0e8ef;
+      /* border-left: 1px solid #e0e8ef;
+      border-right: 1px solid #e0e8ef; */
+    }
+    
+    li a {
+      display: block;
+      color: #e0e8ef;
+      text-align: center;
+      /* padding: 14px 16px; */
+      padding: 1rem 2rem;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #323554;
+    }
+    .home{
+        position: relative;
+        top: -3vh;
+        left: 1vw;
+        font-family: "Jet Brains Mono Regular";
+        color:#e0e8ef;
+        font-size: 1em;
+        text-decoration: none;
+        /* border-bottom: 1px solid #e0e8ef; */
+    }
+
+    h1{
+        position: relative;
+        padding: 1%;
+        left: 50vw;
+        top: 8vh;
+        font-family: "Jet Brains Mono Regular";
+        color: #e0e8ef;
+        display: block;
+        font-size: 4em;
+      }
+
+    .pic1{
+        position: relative;
+        top: -10vh;
+        left: 5vh;
+        padding: 2%;
+        max-width: 40%;
+        height: auto;
+        border: 1px solid white;
+    }
+    .pic2{
+        position: relative;
+        top: 0vh;
+        left: 20vh;
+        padding: 2%;
+        max-width: 40%;
+        height: auto;
+        border: 1px solid white;
+    }
+
+    p{
+        position: relative;
+        width: 40%;
+        font-family: "Jet Brains Mono Regular";
+        color: #e0e8ef;
+        left: 5rem;
+        top: -5rem;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .navbar{
+            left: 5vw;
+        }
+        h1{
+            font-size: 1.7em;
+            left: 7rem;
+            top: 15%;
+        }
+        .pic1{
+            max-width: 80%;
+            top: 10%;
+        }
+        .pic2{
+            max-width: 80%;
+            top: 4vh;
+            left: 9vw;
+        }
+        p{
+            width: 70%;
+            padding-top: 30%;
+        }
+      }
+
+      @media screen and (min-width: 800px) {
+          h1{
+              font-size: 3rem;
+          }
+          .pic2{
+              top: 10vh;
+              left: 10vw;
+          }
+        
+      }
